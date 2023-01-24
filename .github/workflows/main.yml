@@ -67,7 +67,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        key: ${{ secrets.SSH_KEY }}
+        key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCqhiggz8354Vv0KbZV4/9lshCyqCSnL1W1cBOGk2JQfAu1otjGTlAvHb8y2TE1WMGTLmFi75aggMjG9tzR7X/gAP+Z+7vYb+ezIdnqhOMm5Gsxg9QFt/uxgCC6Z6+nqZPb1ehLe03FDU+XGd4n5OPnBRtc4Krf1voU7nEPcWLU7MAd5Bwrf4ersgsCrtlEKFl7vVUBtfzCe1Z0o0GZjFD+I3GTCZ0R4djy9XKpTsFc7ouakX0k3SoLDy6ctBwHf2f4Oceu9A/oAd5IvW60WhmxH6KF/yl6VcSHI0SevDigSkRfVEk5P6yw11D/sb1DTrUSpoQi4f8i3ri7Y+ibFh4HQ2yG0vgVVp+f5hKK6xRJJfUMtfsNikoDY6r8fRlaMG6t3cqozMpQaqzdQgpEbHOrKvd3+V4G4WTIxixHCz2xQgVBp93KVtZAsCMHy6U6AOP9Kw7t2yRvxC+EiPZdLiGcrV331t8TfQMYqy9OAeVNZXIQY3Pjs7rnh5t0oURr4SE= Павел@DESKTOP-80EGG4F
         script: |
           # Выполняет pull образа с DockerHub
           sudo docker pull brutiq/infra_actions
